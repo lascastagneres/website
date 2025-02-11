@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -17,17 +16,44 @@
         <h1>Las Castagnères</h1>
         <nav>
             <ul>
-                <li><a href="produits.html">Produits Fermiers</a></li>
-                <li><a href="activites.html">Activités</a></li>
-                <li><a href="hebergement.html">Hébergement</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="pages/produits">Produits Fermiers</a></li>
+                <li><a href="pages/activites">Activités</a></li>
+                <li><a href="pages/hebergement">Hébergement</a></li>
+                <li><a href="pages/contact">Contact</a></li>
+                <li><a href="pages/team">L'Equipe</a></li>
             </ul>
         </nav>
+        <div id="language-selector">
+            <button onclick="changeLanguage('fr')">FR</button>
+            <button onclick="changeLanguage('en')">EN</button>
+            <button onclick="changeLanguage('es')">ES</button>
+            <button onclick="changeLanguage('pt')">PT</button>
+            <button onclick="changeLanguage('it')">IT</button>
+        </div>
     </header>
-    <section>
-        <h2>Bienvenue à Las Castagnères</h2>
-        <p>Découvrez nos produits fermiers, nos activités de plein air et notre hébergement en pleine nature.</p>
+
+    <section id="produits">
+        <h2>Nos Produits Fermiers</h2>
+        <p>Découvrez nos fromages de chèvre et notre miel artisanal.</p>
     </section>
+
+    <section id="activites">
+        <h2>Activités & Ateliers</h2>
+        <p>Randonnées guidées, attelage équestre, fabrication de fromage et initiation à l’apiculture.</p>
+    </section>
+
+    <section id="hebergement">
+        <h2>Hébergement</h2>
+        <p>Profitez de notre dortoir confortable en pleine nature.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email : contact@lascastagneres.com</p>
+        <p>Téléphone : +33 6 XX XX XX XX</p>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
